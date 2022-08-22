@@ -1,0 +1,87 @@
+.idGeneratorBg{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title h1{
+    color: rgb(125, 177, 255);
+}
+.input-box{
+    margin-top: 2rem;
+    width: 600px;
+    padding: 50px;
+    border: 1px solid;
+    margin: 50px;
+    border-radius: 5%;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 5px 5px 5px rgb(172, 170, 170);
+}
+.inputLabel{
+    display: flex;
+    text-align: start;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.input-box input{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+.formsubmit{
+    position: relative;
+    height: 40px;
+    width: 100px;
+    top: 10px;
+    font-size: 16px;
+    color: whitesmoke;
+    background-color: forestgreen;
+    box-shadow: 2px 2px 5px rgb(74, 182, 74);
+    border: none;
+    transition: all .2s;
+}
+.formsubmit:active{
+    box-shadow: none;
+}
+.imgups{
+    border: .5px solid;
+    height: 50px;
+    width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+    .input-box{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .idGeneratorBg img{
+        display: none;
+    }
+    .input-box{
+        margin: auto;
+    }   
+}
+@media only screen and (max-width: 450px) {
+  
+    .input-box{
+        width: 300px;
+    }
+    .title h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }   
+}
+@media only screen and (max-width: 310px) {
+  
+    .input-box{
+        width: 270px;
+        padding: 15px;
+    }
+    .title h1{
+        font-size: 25px;
+    }
+    .input-box input{
+        height: 40px;
+    }
+}
